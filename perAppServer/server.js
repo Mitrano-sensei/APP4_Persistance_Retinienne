@@ -2,10 +2,9 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const fs = require('fs');
 const uuid = require('uuid');
 const imgProcessor = require('./imgProcessor.js');
-
+const fs = require('fs');
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json(
@@ -81,12 +80,6 @@ app.post('/process', async (req, res) => {
   );
   
   // Delete tmp/img and replace it with processed img 
-
-  
-    
-
-
-    
 });
 
 
@@ -94,3 +87,18 @@ app.post('/process', async (req, res) => {
 app.listen(5000, () => {
   console.log('server is running at http://localhost:5000');
 });
+
+
+// HTTPs server
+
+// const https = require('https');
+// const fs = require('fs');
+
+// const options = {
+//   key: fs.readFileSync('key.pem'),
+//   cert: fs.readFileSync('cert.pem')
+// };
+
+// https.createServer(options, app).listen(5000, () => {
+//   console.log('server is running at https://localhost:5000');
+// });
