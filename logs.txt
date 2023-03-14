@@ -1,0 +1,302 @@
+
+> perApp@0.0.1 start
+> react-native start
+
+
+                        ▒▒▓▓▓▓▒▒
+                     ▒▓▓▓▒▒░░▒▒▓▓▓▒
+                  ▒▓▓▓▓░░░▒▒▒▒░░░▓▓▓▓▒
+                 ▓▓▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▓▓
+                 ▓▓░░░░░▒▓▓▓▓▓▓▒░░░░░▓▓
+                 ▓▓░░▓▓▒░░░▒▒░░░▒▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▒▒▒▒▓▓▓▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░▓▓
+                 ▓▓▒░░▒▒▓▓▓▓▓▓▓▓▒░░░▒▓▓
+                  ▒▓▓▓▒░░░▒▓▓▒░░░▒▓▓▓▒
+                     ▒▓▓▓▒░░░░▒▓▓▓▒
+                        ▒▒▓▓▓▓▒▒
+
+
+                Welcome to Metro v0.73.8
+              Fast - Scalable - Integrated
+
+r - reload the app
+d - open developer menu
+i - run on iOS
+a - run on Android
+
+info Opening the app on Android...
+info JS server already running.
+info Installing the app...
+> Task :react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :react-native-gradle-plugin:classes UP-TO-DATE
+> Task :react-native-gradle-plugin:inspectClassesForKotlinIC UP-TO-DATE
+> Task :react-native-gradle-plugin:jar UP-TO-DATE
+> Task :app:buildCodegenCLI SKIPPED
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :react-native-ble-manager:preBuild UP-TO-DATE
+> Task :react-native-ble-manager:preDebugBuild UP-TO-DATE
+> Task :react-native-ble-manager:compileDebugAidl NO-SOURCE
+> Task :react-native-camera:preBuild UP-TO-DATE
+> Task :react-native-camera:preGeneralDebugBuild UP-TO-DATE
+> Task :react-native-camera:compileGeneralDebugAidl NO-SOURCE
+> Task :react-native-device-info:preBuild UP-TO-DATE
+> Task :react-native-device-info:preDebugBuild UP-TO-DATE
+> Task :react-native-device-info:compileDebugAidl NO-SOURCE
+> Task :react-native-fs:preBuild UP-TO-DATE
+> Task :react-native-fs:preDebugBuild UP-TO-DATE
+> Task :react-native-fs:compileDebugAidl NO-SOURCE
+> Task :react-native-image-picker:preBuild UP-TO-DATE
+> Task :react-native-image-picker:preDebugBuild UP-TO-DATE
+> Task :react-native-image-picker:compileDebugAidl NO-SOURCE
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-webview:preDebugBuild UP-TO-DATE
+> Task :react-native-webview:compileDebugAidl NO-SOURCE
+> Task :rn-fetch-blob:preBuild UP-TO-DATE
+> Task :rn-fetch-blob:preDebugBuild UP-TO-DATE
+> Task :rn-fetch-blob:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :react-native-ble-manager:packageDebugRenderscript NO-SOURCE
+> Task :react-native-camera:packageGeneralDebugRenderscript NO-SOURCE
+> Task :react-native-device-info:packageDebugRenderscript NO-SOURCE
+> Task :react-native-fs:packageDebugRenderscript NO-SOURCE
+> Task :react-native-image-picker:packageDebugRenderscript NO-SOURCE
+> Task :react-native-webview:packageDebugRenderscript NO-SOURCE
+> Task :rn-fetch-blob:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-ble-manager:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-camera:writeGeneralDebugAarMetadata UP-TO-DATE
+> Task :react-native-device-info:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-fs:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-image-picker:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-webview:writeDebugAarMetadata UP-TO-DATE
+> Task :rn-fetch-blob:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :react-native-ble-manager:compileDebugRenderscript NO-SOURCE
+> Task :react-native-ble-manager:generateDebugResValues UP-TO-DATE
+> Task :react-native-ble-manager:generateDebugResources UP-TO-DATE
+> Task :react-native-ble-manager:packageDebugResources UP-TO-DATE
+> Task :react-native-camera:compileGeneralDebugRenderscript NO-SOURCE
+> Task :react-native-camera:generateGeneralDebugResValues UP-TO-DATE
+> Task :react-native-camera:generateGeneralDebugResources UP-TO-DATE
+> Task :react-native-camera:packageGeneralDebugResources UP-TO-DATE
+> Task :react-native-device-info:compileDebugRenderscript NO-SOURCE
+> Task :react-native-device-info:generateDebugResValues UP-TO-DATE
+> Task :react-native-device-info:generateDebugResources UP-TO-DATE
+> Task :react-native-device-info:packageDebugResources UP-TO-DATE
+> Task :react-native-fs:compileDebugRenderscript NO-SOURCE
+> Task :react-native-fs:generateDebugResValues UP-TO-DATE
+> Task :react-native-fs:generateDebugResources UP-TO-DATE
+> Task :react-native-fs:packageDebugResources UP-TO-DATE
+> Task :react-native-image-picker:compileDebugRenderscript NO-SOURCE
+> Task :react-native-image-picker:generateDebugResValues UP-TO-DATE
+> Task :react-native-image-picker:generateDebugResources UP-TO-DATE
+> Task :react-native-image-picker:packageDebugResources UP-TO-DATE
+> Task :react-native-webview:compileDebugRenderscript NO-SOURCE
+> Task :react-native-webview:generateDebugResValues UP-TO-DATE
+> Task :react-native-webview:generateDebugResources UP-TO-DATE
+> Task :react-native-webview:packageDebugResources UP-TO-DATE
+> Task :rn-fetch-blob:compileDebugRenderscript NO-SOURCE
+> Task :rn-fetch-blob:generateDebugResValues UP-TO-DATE
+> Task :rn-fetch-blob:generateDebugResources UP-TO-DATE
+> Task :rn-fetch-blob:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-ble-manager:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-ble-manager:processDebugManifest UP-TO-DATE
+> Task :react-native-camera:extractDeepLinksGeneralDebug UP-TO-DATE
+> Task :react-native-camera:processGeneralDebugManifest UP-TO-DATE
+> Task :react-native-device-info:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-device-info:processDebugManifest UP-TO-DATE
+> Task :react-native-fs:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-fs:processDebugManifest UP-TO-DATE
+> Task :react-native-image-picker:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-image-picker:processDebugManifest UP-TO-DATE
+> Task :react-native-webview:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-webview:processDebugManifest UP-TO-DATE
+> Task :rn-fetch-blob:extractDeepLinksDebug UP-TO-DATE
+> Task :rn-fetch-blob:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :react-native-ble-manager:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-ble-manager:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-ble-manager:generateDebugRFile UP-TO-DATE
+> Task :react-native-camera:compileGeneralDebugLibraryResources UP-TO-DATE
+> Task :react-native-camera:parseGeneralDebugLocalResources UP-TO-DATE
+> Task :react-native-camera:generateGeneralDebugRFile UP-TO-DATE
+> Task :react-native-device-info:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-device-info:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-device-info:generateDebugRFile UP-TO-DATE
+> Task :react-native-fs:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-fs:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-fs:generateDebugRFile UP-TO-DATE
+> Task :react-native-image-picker:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-image-picker:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-image-picker:generateDebugRFile UP-TO-DATE
+> Task :react-native-webview:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-webview:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-webview:generateDebugRFile UP-TO-DATE
+> Task :rn-fetch-blob:compileDebugLibraryResources UP-TO-DATE
+> Task :rn-fetch-blob:parseDebugLocalResources UP-TO-DATE
+> Task :rn-fetch-blob:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :react-native-ble-manager:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-ble-manager:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-ble-manager:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-ble-manager:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-camera:generateGeneralDebugBuildConfig UP-TO-DATE
+> Task :react-native-camera:javaPreCompileGeneralDebug UP-TO-DATE
+> Task :react-native-camera:compileGeneralDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-camera:bundleLibCompileToJarGeneralDebug UP-TO-DATE
+> Task :react-native-device-info:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-device-info:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-device-info:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-device-info:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-fs:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-fs:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-fs:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-fs:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-image-picker:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-image-picker:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-image-picker:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-image-picker:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-webview:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-webview:compileDebugKotlin UP-TO-DATE
+> Task :react-native-webview:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-webview:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-webview:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :rn-fetch-blob:generateDebugBuildConfig UP-TO-DATE
+> Task :rn-fetch-blob:javaPreCompileDebug UP-TO-DATE
+> Task :rn-fetch-blob:compileDebugJavaWithJavac UP-TO-DATE
+> Task :rn-fetch-blob:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :react-native-ble-manager:mergeDebugShaders UP-TO-DATE
+> Task :react-native-ble-manager:compileDebugShaders NO-SOURCE
+> Task :react-native-ble-manager:generateDebugAssets UP-TO-DATE
+> Task :react-native-ble-manager:packageDebugAssets UP-TO-DATE
+> Task :react-native-camera:mergeGeneralDebugShaders UP-TO-DATE
+> Task :react-native-camera:compileGeneralDebugShaders NO-SOURCE
+> Task :react-native-camera:generateGeneralDebugAssets UP-TO-DATE
+> Task :react-native-camera:packageGeneralDebugAssets UP-TO-DATE
+> Task :react-native-device-info:mergeDebugShaders UP-TO-DATE
+> Task :react-native-device-info:compileDebugShaders NO-SOURCE
+> Task :react-native-device-info:generateDebugAssets UP-TO-DATE
+> Task :react-native-device-info:packageDebugAssets UP-TO-DATE
+> Task :react-native-fs:mergeDebugShaders UP-TO-DATE
+> Task :react-native-fs:compileDebugShaders NO-SOURCE
+> Task :react-native-fs:generateDebugAssets UP-TO-DATE
+> Task :react-native-fs:packageDebugAssets UP-TO-DATE
+> Task :react-native-image-picker:mergeDebugShaders UP-TO-DATE
+> Task :react-native-image-picker:compileDebugShaders NO-SOURCE
+> Task :react-native-image-picker:generateDebugAssets UP-TO-DATE
+> Task :react-native-image-picker:packageDebugAssets UP-TO-DATE
+> Task :react-native-webview:mergeDebugShaders UP-TO-DATE
+> Task :react-native-webview:compileDebugShaders NO-SOURCE
+> Task :react-native-webview:generateDebugAssets UP-TO-DATE
+> Task :react-native-webview:packageDebugAssets UP-TO-DATE
+> Task :rn-fetch-blob:mergeDebugShaders UP-TO-DATE
+> Task :rn-fetch-blob:compileDebugShaders NO-SOURCE
+> Task :rn-fetch-blob:generateDebugAssets UP-TO-DATE
+> Task :rn-fetch-blob:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :react-native-ble-manager:processDebugJavaRes NO-SOURCE
+> Task :react-native-ble-manager:bundleLibResDebug NO-SOURCE
+> Task :react-native-camera:processGeneralDebugJavaRes NO-SOURCE
+> Task :react-native-camera:bundleLibResGeneralDebug NO-SOURCE
+> Task :react-native-device-info:processDebugJavaRes NO-SOURCE
+> Task :react-native-device-info:bundleLibResDebug NO-SOURCE
+> Task :react-native-fs:processDebugJavaRes NO-SOURCE
+> Task :react-native-fs:bundleLibResDebug NO-SOURCE
+> Task :react-native-image-picker:processDebugJavaRes NO-SOURCE
+> Task :react-native-image-picker:bundleLibResDebug NO-SOURCE
+> Task :react-native-webview:processDebugJavaRes NO-SOURCE
+> Task :react-native-webview:bundleLibResDebug UP-TO-DATE
+> Task :rn-fetch-blob:processDebugJavaRes NO-SOURCE
+> Task :rn-fetch-blob:bundleLibResDebug NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :react-native-ble-manager:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-camera:bundleLibRuntimeToJarGeneralDebug UP-TO-DATE
+> Task :react-native-device-info:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-fs:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-image-picker:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-webview:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :rn-fetch-blob:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-ble-manager:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-ble-manager:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-ble-manager:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-camera:mergeGeneralDebugJniLibFolders UP-TO-DATE
+> Task :react-native-camera:mergeGeneralDebugNativeLibs NO-SOURCE
+> Task :react-native-camera:copyGeneralDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-device-info:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-device-info:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-device-info:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-fs:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-fs:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-fs:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-image-picker:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-image-picker:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-image-picker:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-webview:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-webview:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-webview:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :rn-fetch-blob:mergeDebugJniLibFolders UP-TO-DATE
+> Task :rn-fetch-blob:mergeDebugNativeLibs NO-SOURCE
+> Task :rn-fetch-blob:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:packageDebug UP-TO-DATE
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+
+> Task :app:installDebug
+Installing APK 'app-debug.apk' on 'SM-T580 - 8.1.0' for :app:debug
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 36s
+159 actionable tasks: 2 executed, 157 up-to-date
+info Connecting to the development server...
+info Starting the app on "3300ee376ef5951b"...
+Starting: Intent { cmp=com.perapp/.MainActivity }
+ BUNDLE  ./index.js 
+
+ LOG  Running "perApp" with {"rootTag":11}
+ LOG  BLE authorization granted
+ LOG  #peripherals [
+   {"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":12,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,12,10,255,76,0,16,5,31,28,215,134,126,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoMCv9MABAFHxzXhn4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-84,"id":"48:82:1B:AC:59:55","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,2,155,9,161,89,39,169,166,76,247,83,146,70,236,71,77,176,235,186,120,91,207,163,148,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJIAKbCaFZJ6mmTPdTkkbsR02w67p4W8+jlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-77,"id":"0A:96:70:AD:E1:65","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,34,171,157,183,190,161,212,154,110,170,3,213,70,158,65,165,117,3,9,219,152,38,79,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJICKrnbe+odSabqoD1UaeQaV1AwnbmCZP1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-66,"id":"16:DB:06:1B:2A:41","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":7,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,7,10,255,76,0,16,5,53,28,31,96,126,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoHCv9MABAFNRwfYH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-85,"id":"53:41:6B:51:28:54","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,76,0,18,25,0,86,23,119,191,108,197,113,224,230,161,82,223,183,146,203,210,79,105,231,24,28,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv9MABIZAFYXd79sxXHg5qFS37eSy9JPaecYHAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-83,"id":"C8:F2:EB:2E:A0:8C","name":null},
+   {"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":8,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,8,11,255,76,0,16,6,62,30,231,70,164,228,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoIC/9MABAGPh7nRqTkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-68,"id":"62:C2:C7:97:5B:3F","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[7,255,76,0,18,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"B/9MABICAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-86,"id":"F5:65:AC:C8:C2:A8","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,34,171,157,183,190,161,212,154,110,170,3,213,70,158,65,165,117,3,9,219,152,38,79,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJICKrnbe+odSabqoD1UaeQaV1AwnbmCZP1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-66,"id":"16:DB:06:1B:2A:41","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":12,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,12,10,255,76,0,16,5,17,28,8,68,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoMCv9MABAFERwIRFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-83,"id":"6D:FF:78:45:34:38","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":7,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,7,10,255,76,0,16,5,48,24,40,60,217,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoHCv9MABAFMBgoPNkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-70,"id":"78:55:0F:1B:73:8C","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,34,147,80,70,25,227,226,239,33,130,10,251,73,139,244,119,18,170,74,188,48,187,158,211,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJICKTUEYZ4+LvIYIK+0mL9HcSqkq8MLue0wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-72,"id":"32:B1:D7:3D:95:B3","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,2,155,9,161,89,39,169,166,76,247,83,146,70,236,71,77,176,235,186,120,91,207,163,148,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJIAKbCaFZJ6mmTPdTkkbsR02w67p4W8+jlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-78,"id":"0A:96:70:AD:E1:65","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,34,147,80,70,25,227,226,239,33,130,10,251,73,139,244,119,18,170,74,188,48,187,158,211,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJICKTUEYZ4+LvIYIK+0mL9HcSqkq8MLue0wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-73,"id":"32:B1:D7:3D:95:B3","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":12,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,12,10,255,76,0,16,5,31,28,215,134,126,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoMCv9MABAFHxzXhn4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-84,"id":"48:82:1B:AC:59:55","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":7,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,7,10,255,76,0,16,5,53,28,31,96,126,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoHCv9MABAFNRwfYH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-89,"id":"53:41:6B:51:28:54","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[7,255,76,0,18,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"B/9MABICAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-86,"id":"C6:FC:0F:97:45:7C","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,34,171,157,183,190,161,212,154,110,170,3,213,70,158,65,165,117,3,9,219,152,38,79,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJICKrnbe+odSabqoD1UaeQaV1AwnbmCZP1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-66,"id":"16:DB:06:1B:2A:41","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":["fe61"],"localName":"","txPowerLevel":-2147483648,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,8,0,3,3,97,254,16,255,3,0,1,24,21,0,0,1,248,56,128,207,35,232,34,22,255,3,0,1,24,21,0,0,1,248,56,128,207,35,232,192,40,141,246,53,124,34,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAggAAwNh/hD/AwABGBUAAAH4OIDPI+giFv8DAAEYFQAAAfg4gM8j6MAojfY1fCIAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-96,"id":"C0:28:8D:F6:35:7C","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":7,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,7,10,255,76,0,16,5,59,28,153,171,156,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoHCv9MABAFOxyZq5wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-77,"id":"7F:61:21:D4:6E:DB","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,34,147,80,70,25,227,226,239,33,130,10,251,73,139,244,119,18,170,74,188,48,187,158,211,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJICKTUEYZ4+LvIYIK+0mL9HcSqkq8MLue0wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-68,"id":"32:B1:D7:3D:95:B3","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,2,155,9,161,89,39,169,166,76,247,83,146,70,236,71,77,176,235,186,120,91,207,163,148,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJIAKbCaFZJ6mmTPdTkkbsR02w67p4W8+jlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-74,"id":"0A:96:70:AD:E1:65","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,26,255,76,0,12,14,0,155,126,175,255,250,124,148,52,92,87,161,31,199,16,5,78,28,97,55,196,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaGv9MAAwOAJt+r//6fJQ0XFehH8cQBU4cYTfEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-72,"id":"43:F8:D7:34:AB:EA","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":7,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,7,10,255,76,0,16,5,48,24,40,60,217,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoHCv9MABAFMBgoPNkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-63,"id":"78:55:0F:1B:73:8C","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,2,231,138,40,231,190,13,79,37,94,96,194,128,111,53,2,153,136,158,123,141,213,116,141,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJIALniijnvg1PJV5gwoBvNQKZiJ57jdV0jQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-91,"id":"2F:C1:9B:AC:A2:FC","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,34,171,157,183,190,161,212,154,110,170,3,213,70,158,65,165,117,3,9,219,152,38,79,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJICKrnbe+odSabqoD1UaeQaV1AwnbmCZP1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-66,"id":"16:DB:06:1B:2A:41","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":12,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,12,10,255,76,0,16,5,31,28,215,134,126,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoMCv9MABAFHxzXhn4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-84,"id":"48:82:1B:AC:59:55","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":6,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,6,12,255,76,0,16,7,110,31,91,120,207,209,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoGDP9MABAHbh9beM/ReAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-64,"id":"69:78:DD:98:33:50","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,2,155,9,161,89,39,169,166,76,247,83,146,70,236,71,77,176,235,186,120,91,207,163,148,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJIAKbCaFZJ6mmTPdTkkbsR02w67p4W8+jlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-74,"id":"0A:96:70:AD:E1:65","name":null},{"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":-2147483648,"isConnectable":false,"manufacturerData":{"bytes":[30,255,6,0,1,9,32,34,171,157,183,190,161,212,154,110,170,3,213,70,158,65,165,117,3,9,219,152,38,79,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"Hv8GAAEJICKrnbe+odSabqoD1UaeQaV1AwnbmCZP1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-67,"id":"16:DB:06:1B:2A:41","name":null}]
+ LOG  peripheral {"advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":12,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,12,10,255,76,0,16,5,31,28,215,134,126,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoMCv9MABAFHxzXhn4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-84,"id":"48:82:1B:AC:59:55","name":null}
+ LOG  peripheralInfo {"characteristics":[{"characteristic":"2a00","properties":{"Read":"Read"},"service":"1800"},{"characteristic":"2a01","properties":{"Read":"Read"},"service":"1800"},{"characteristic":"2a29","properties":{"Read":"Read"},"service":"180a"},{"characteristic":"2a24","properties":{"Read":"Read"},"service":"180a"},{"descriptors":[{"value":null,"uuid":"2902"}],"characteristic":"2a05","properties":{"Indicate":"Indicate"},"service":"1801"},{"descriptors":[{"value":null,"uuid":"2900"},{"value":null,"uuid":"2902"}],"characteristic":"8667556c-9a37-4c91-84ed-54ee27d90049","properties":{"ExtendedProperties":"ExtendedProperties","Notify":"Notify","Write":"Write"},"service":"d0611e78-bbb4-4591-a5f8-487910ae4366"},{"descriptors":[{"value":null,"uuid":"2900"},{"value":null,"uuid":"2902"}],"characteristic":"af0badb1-5b99-43cd-917a-a77bc549e3cc","properties":{"ExtendedProperties":"ExtendedProperties","Notify":"Notify","Write":"Write"},"service":"9fa480e0-4967-4542-9390-d343dc5d04ae"},{"descriptors":[{"value":null,"uuid":"2902"}],"characteristic":"2a19","properties":{"Notify":"Notify","Read":"Read"},"service":"180f"},{"descriptors":[{"value":null,"uuid":"2902"}],"characteristic":"2a2b","properties":{"Notify":"Notify","Read":"Read"},"service":"1805"},{"characteristic":"2a0f","properties":{"Read":"Read"},"service":"1805"},{"descriptors":[{"value":null,"uuid":"2900"}],"characteristic":"69d1d8f3-45e1-49a8-9821-9bbdfdaad9d9","properties":{"ExtendedProperties":"ExtendedProperties","Write":"Write"},"service":"7905f431-b5ce-4e99-a40f-4b1e122d00d0"},{"descriptors":[{"value":null,"uuid":"2902"}],"characteristic":"9fbf120d-6301-42d9-8c58-25e699a21dbd","properties":{"Notify":"Notify"},"service":"7905f431-b5ce-4e99-a40f-4b1e122d00d0"},{"descriptors":[{"value":null,"uuid":"2902"}],"characteristic":"22eac6e9-24d6-4bb5-be44-b36ace7c7bfb","properties":{"Notify":"Notify"},"service":"7905f431-b5ce-4e99-a40f-4b1e122d00d0"},{"descriptors":[{"value":null,"uuid":"2900"},{"value":null,"uuid":"2902"}],"characteristic":"9b3c81d8-57b1-4a8a-b8df-0e56f7ca51c2","properties":{"ExtendedProperties":"ExtendedProperties","Notify":"Notify","Write":"Write"},"service":"89d3502b-0f36-433a-8ef4-c502ad55f8dc"},{"descriptors":[{"value":null,"uuid":"2900"},{"value":null,"uuid":"2902"}],"characteristic":"2f7cabce-808d-411f-9a0c-bb92ba96c102","properties":{"ExtendedProperties":"ExtendedProperties","Notify":"Notify","Write":"Write"},"service":"89d3502b-0f36-433a-8ef4-c502ad55f8dc"},{"descriptors":[{"value":null,"uuid":"2900"}],"characteristic":"c6b2f38c-23ab-46d8-a6ab-a3a870bbd5d7","properties":{"ExtendedProperties":"ExtendedProperties","Write":"Write","Read":"Read"},"service":"89d3502b-0f36-433a-8ef4-c502ad55f8dc"}],"id":"48:82:1B:AC:59:55","advertising":{"serviceData":{},"serviceUUIDs":[],"txPowerLevel":12,"isConnectable":true,"manufacturerData":{"bytes":[2,1,26,2,10,12,10,255,76,0,16,5,31,28,215,134,126,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"data":"AgEaAgoMCv9MABAFHxzXhn4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","CDVType":"ArrayBuffer"}},"rssi":-84,"services":[{"uuid":"1800"},{"uuid":"180a"},{"uuid":"1801"},{"uuid":"d0611e78-bbb4-4591-a5f8-487910ae4366"},{"uuid":"9fa480e0-4967-4542-9390-d343dc5d04ae"},{"uuid":"180f"},{"uuid":"1805"},{"uuid":"7905f431-b5ce-4e99-a40f-4b1e122d00d0"},{"uuid":"89d3502b-0f36-433a-8ef4-c502ad55f8dc"}],"name":null}

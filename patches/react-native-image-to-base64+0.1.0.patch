@@ -1,0 +1,11 @@
+diff --git a/node_modules/react-native-image-to-base64/android/build.gradle b/node_modules/react-native-image-to-base64/android/build.gradle
+index 94d317b..5b5a27d 100644
+--- a/node_modules/react-native-image-to-base64/android/build.gradle
++++ b/node_modules/react-native-image-to-base64/android/build.gradle
+@@ -13,5 +13,5 @@ android {
+ }
+ 
+ dependencies {
+-  compile 'com.facebook.react:react-native:+'
++  implementation 'com.facebook.react:react-native:+'
+ }
