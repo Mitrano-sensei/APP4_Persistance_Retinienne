@@ -71,6 +71,7 @@ async function getMatrixFromImage(src) {
   let matrix = [];
   let row = [];
   let pixel = 0;
+  let rgb = 0;
   let image = null;
   let retry = 0;
   while (image === null && retry < 25) {
@@ -80,7 +81,10 @@ async function getMatrixFromImage(src) {
           row = [];
           for (let j = 0; j < image.bitmap.width; j += 1) {
             pixel = image.getPixelColor(j, i);
-            row.push(pixel);
+            rgb = Jimp.intToRGBA(pixel);
+            // ignore alpha channel
+            rgb = (rgb.r << 16) | (rgb.g << 8) | rgb.b;
+            row.push(rgb);
           }
           matrix.push(row);
         }

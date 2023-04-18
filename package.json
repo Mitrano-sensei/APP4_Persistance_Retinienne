@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "android:release": "cd android && ./gradlew assembleRelease"
   },
   "dependencies": {
     "deprecated-react-native-prop-types": "^4.0.0",
@@ -16,11 +17,13 @@
     "react": "18.2.0",
     "react-native": "0.71.1",
     "react-native-ble-manager": "^8.8.0",
+    "react-native-bluetooth-classic": "^1.60.0-rc.25",
     "react-native-camera": "^4.2.1",
     "react-native-canvas": "^0.1.38",
     "react-native-device-info": "^10.4.0",
     "react-native-fs": "^2.20.0",
     "react-native-image-picker": "^5.0.1",
+    "react-native-image-to-base64": "^0.1.0",
     "react-native-webview": "^11.26.0",
     "rn-fetch-blob": "^0.12.0"
   },
