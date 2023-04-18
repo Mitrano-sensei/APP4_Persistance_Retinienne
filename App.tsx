@@ -13,26 +13,41 @@ import RNFetchBlob from 'rn-fetch-blob';
 import { RNCamera } from 'react-native-camera'
 import BluetoothClassic from 'react-native-bluetooth-classic';
 
-const SERVER_URL = 'https//1c5f-46-193-64-142.eu.ngrok.io';
+const SERVER_URL = 'https://4050-2a01-cb00-f9c-6800-f66d-bc6e-bacf-4bfb.eu.ngrok.io';
 
+// (async () => {
+//   try {
 
-(async () => {
-  try {
+//     const macAddress = '68:27:19:F8:98:57';
+//     const device = await BluetoothClassic.connectToDevice(macAddress);
+//     console.log('device', device);
 
-    const macAddress = '68:27:19:F8:98:57';
-    const device = await BluetoothClassic.connectToDevice(macAddress);
-    console.log('device', device);
+//     while (true) {
+//       const data = await device.write('Hello World');
+//       console.log('data', data);
+//     }
 
-    while (true) {
-      const data = await device.write('Hello World');
-      console.log('data', data);
-    }
-
-  } catch (error) {
-    console.error(error);
-  }
+//   } catch (error) {
+//     console.error(error);
+//   }
   
-})();
+// })();
+
+
+const sendToBluetooth = async (matrix) => {
+  console.log('matrix', matrix);
+  const macAddress = '68:27:19:F8:98:57';
+  const device = await BluetoothClassic.connectToDevice(macAddress);
+  console.log('device', device);
+  while (true) {
+    const data = await device.write(matrix);
+    console.log('data', data);
+    setTimeout(() => {
+      console.log('timeout');
+      return;
+    }, 5000);
+  }
+}
 
 
 
@@ -77,11 +92,13 @@ const App = () => {
         }
       }),
     });
+
     const data = await response.json();
     setIsProcessing(false);
     setMatrix(data.payload);
     setProcessedPhoto(data.payload);
-  }
+  };
+
 
   const takePicture = async (camera) => {
     const options = { base64: true };
@@ -98,7 +115,7 @@ const App = () => {
         </View>
       </SafeAreaView>
 
-      {/* {
+      {
         (!(photo || isProcessing)) && (
           <View
             style={{
@@ -141,12 +158,6 @@ const App = () => {
               <TouchableOpacity onPress={() => takePicture(camera)} style={[styles.btn, { width: 120 }]}>
                 <Text style={styles.btnText}>Capture</Text>
               </TouchableOpacity>
-
-              <TouchableOpacity onPress={() => takePicture(camera)} style={[styles.btn, { width: 120 }]}>
-                <Text style={styles.btnText}>Draw</Text>
-              </TouchableOpacity>
-
-
               <TouchableOpacity onPress={handleChoosePhoto} style={[styles.btn, { width: 120 }]}>
                 <Text style={styles.btnText}>Pick</Text>
               </TouchableOpacity>
@@ -155,7 +166,7 @@ const App = () => {
         )
       }
 
-            {(isProcessing) && (
+      {(isProcessing) && (
         //  Text who say that the photo is processed
         <View style={
           {
@@ -244,35 +255,51 @@ const App = () => {
             </TouchableOpacity>
           </View>
         </View>
-      )} */}
+      )}
 
-      <View style={
+      {(photo && !isProcessing && processedPhoto) && ( // Captured image after processing display just processed image text
+        <View style={
           {
             flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
           }
         }>
-          <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Please select a device</Text>
-          <TouchableOpacity onPress={() => {
-           
-          
-           }} style={styles.btn}>
-            <Text style={styles.btnText}>Start Scanning</Text>
-          </TouchableOpacity>
-          <TouchableOpacity onPress={() => {
-            setPhoto(null);
-            setProcessedPhoto(null);
+          <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Processed</Text>
+          <View style={{
+            margin: 50,
+            borderRadius: 10,
+            padding: 10,
+            backgroundColor: 'white',
+            flex: 1,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+          }}>
+            {/* call send to bluetooth */}
+            <TouchableOpacity onPress={() => {
+              sendToBluetooth(matrix);
+            }} style={styles.btn}>
+              <Text style={styles.btnText}>Send to BLE</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => {
+              setPhoto(null);
+              setProcessedPhoto(null);
+              setMatrix(null);
+              setIsProcessing(false);
             }} style={[styles.btn,
-            {
-              backgroundColor: '#d16262'
-            }]}>
-            <Text style={styles.btnText}>Cancel</Text>
-          </TouchableOpacity>
+              {
+                backgroundColor: '#d16262'
+                }]}>
+              <Text style={styles.btnText}>Cancel</Text>
+            </TouchableOpacity>
+          </View>
         </View>
-      {/* {(photo && !isProcessing && processedPhoto) && ( // Captured image after processing
-
-      )} */}
+      )}
     </View>
   );
 };
